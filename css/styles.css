@@ -1,0 +1,41 @@
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Espaciado externo */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    color: white; /* Color del texto */
+}
+
+.btn-icon i {
+    margin-right: 5px; /* Espaciado entre el ícono y el texto */
+}
+
+/* Estilos para los diferentes botones */
+.btn-primary {
+    background-color: #007bff; /* Color de fondo */
+}
+
+.btn-success {
+    background-color: #28a745; /* Color de fondo */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Color de fondo */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Color de fondo */
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Color de fondo */
+}
+
+/* Efecto hover */
+.btn-icon:hover {
+    opacity: 0.8; /* Efecto de opacidad al pasar el mouse */
+    color: antiquewhite;
+}
