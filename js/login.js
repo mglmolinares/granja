@@ -34,7 +34,7 @@ const loginAdmin = (event) => {
                 localStorage.setItem('token', data.token);
                 localStorage.setItem('rol', data.rol);
                 formAdmin.reset();
-                window.location.href = '/web/html/administrador.html';
+                window.location.href = '/html/administrador.html';
             } else {
                 alert("Credenciales Incorrectas o acceso no autorizado");
             }
@@ -73,7 +73,7 @@ const loginTb = (event) => {
                 localStorage.setItem('token', data.token);
                 localStorage.setItem('rol', data.rol);
                 formTb.reset();
-                window.location.href = '/web/html/trabajador.html';
+                window.location.href = '/html/trabajador.html';
             } else {
                 alert("Credenciales Incorrectas o acceso no autorizado");
             }
@@ -111,7 +111,7 @@ const loginVt = (event) => {
                 localStorage.setItem('token', data.token);
                 localStorage.setItem('rol', data.rol);
                 formVt.reset();
-                window.location.href = '/web/html/veterinario.html';
+                window.location.href = '/html/veterinario.html';
             } else {
                 alert("Credenciales Incorrectas o acceso no autorizado");
             }
