@@ -1,3 +1,3 @@
 const redirigir = () => {
-    window.location.href = "/web/html/login.html"; 
+    window.location.href = "/html/login.html"; 
 }
