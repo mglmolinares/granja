@@ -1,4 +1,4 @@
-
+console.log("hola")
 const formAdmin = document.getElementById("form-login-admin");
 const formTb = document.getElementById("form-login-trabajador");
 const formVt = document.getElementById("form-login-veterinario");
